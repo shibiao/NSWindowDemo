@@ -11,16 +11,30 @@
 		69A4B8CE1FE3516200371C58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4B8CD1FE3516200371C58 /* ViewController.swift */; };
 		69A4B8D01FE3516200371C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69A4B8CF1FE3516200371C58 /* Assets.xcassets */; };
 		69A4B8D31FE3516200371C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69A4B8D11FE3516200371C58 /* Main.storyboard */; };
+		69A4B8DC1FE351B300371C58 /* LoginWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4B8DB1FE351B300371C58 /* LoginWindowController.swift */; };
+		69A4B8E01FE35AC100371C58 /* LoginImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4B8DF1FE35AC100371C58 /* LoginImageButton.swift */; };
+		69A4B9011FE3B82900371C58 /* UserItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A4B8FF1FE3B82900371C58 /* UserItem.swift */; };
+		69A4B9021FE3B82900371C58 /* UserItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69A4B9001FE3B82900371C58 /* UserItem.xib */; };
+		69B12DF81FE8A11C00B32474 /* LoginAccountTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B12DF71FE8A11C00B32474 /* LoginAccountTextField.swift */; };
+		69B12DFA1FE8A32500B32474 /* LoginPasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B12DF91FE8A32500B32474 /* LoginPasswordSecureField.swift */; };
+		69B12DFC1FE8E0B500B32474 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69B12DFB1FE8E0B500B32474 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		69A4B8C81FE3516200371C58 /* MacQQ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacQQ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A4B8C81FE3516200371C58 /* 添加子窗口.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "添加子窗口.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69A4B8CB1FE3516200371C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69A4B8CD1FE3516200371C58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69A4B8CF1FE3516200371C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69A4B8D21FE3516200371C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69A4B8D41FE3516200371C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69A4B8D51FE3516200371C58 /* MacQQ.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacQQ.entitlements; sourceTree = "<group>"; };
+		69A4B8DB1FE351B300371C58 /* LoginWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWindowController.swift; sourceTree = "<group>"; };
+		69A4B8DF1FE35AC100371C58 /* LoginImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginImageButton.swift; sourceTree = "<group>"; };
+		69A4B8FF1FE3B82900371C58 /* UserItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserItem.swift; sourceTree = "<group>"; };
+		69A4B9001FE3B82900371C58 /* UserItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserItem.xib; sourceTree = "<group>"; };
+		69B12DF71FE8A11C00B32474 /* LoginAccountTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAccountTextField.swift; sourceTree = "<group>"; };
+		69B12DF91FE8A32500B32474 /* LoginPasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPasswordSecureField.swift; sourceTree = "<group>"; };
+		69B12DFB1FE8E0B500B32474 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +59,7 @@
 		69A4B8C91FE3516200371C58 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				69A4B8C81FE3516200371C58 /* MacQQ.app */,
+				69A4B8C81FE3516200371C58 /* 添加子窗口.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,6 +69,13 @@
 			children = (
 				69A4B8CB1FE3516200371C58 /* AppDelegate.swift */,
 				69A4B8CD1FE3516200371C58 /* ViewController.swift */,
+				69B12DF71FE8A11C00B32474 /* LoginAccountTextField.swift */,
+				69B12DF91FE8A32500B32474 /* LoginPasswordSecureField.swift */,
+				69A4B8DB1FE351B300371C58 /* LoginWindowController.swift */,
+				69A4B8DF1FE35AC100371C58 /* LoginImageButton.swift */,
+				69A4B8FF1FE3B82900371C58 /* UserItem.swift */,
+				69B12DFB1FE8E0B500B32474 /* CustomView.swift */,
+				69A4B9001FE3B82900371C58 /* UserItem.xib */,
 				69A4B8CF1FE3516200371C58 /* Assets.xcassets */,
 				69A4B8D11FE3516200371C58 /* Main.storyboard */,
 				69A4B8D41FE3516200371C58 /* Info.plist */,
@@ -66,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		69A4B8C71FE3516200371C58 /* MacQQ */ = {
+		69A4B8C71FE3516200371C58 /* 添加子窗口 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 69A4B8D81FE3516200371C58 /* Build configuration list for PBXNativeTarget "MacQQ" */;
+			buildConfigurationList = 69A4B8D81FE3516200371C58 /* Build configuration list for PBXNativeTarget "添加子窗口" */;
 			buildPhases = (
 				69A4B8C41FE3516200371C58 /* Sources */,
 				69A4B8C51FE3516200371C58 /* Frameworks */,
@@ -78,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = MacQQ;
+			name = "添加子窗口";
 			productName = MacQQ;
-			productReference = 69A4B8C81FE3516200371C58 /* MacQQ.app */;
+			productReference = 69A4B8C81FE3516200371C58 /* 添加子窗口.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +120,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 69A4B8C31FE3516200371C58 /* Build configuration list for PBXProject "MacQQ" */;
+			buildConfigurationList = 69A4B8C31FE3516200371C58 /* Build configuration list for PBXProject "添加子窗口" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +133,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				69A4B8C71FE3516200371C58 /* MacQQ */,
+				69A4B8C71FE3516200371C58 /* 添加子窗口 */,
 			);
 		};
 /* End PBXProject section */
@@ -122,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A4B9021FE3B82900371C58 /* UserItem.xib in Resources */,
 				69A4B8D01FE3516200371C58 /* Assets.xcassets in Resources */,
 				69A4B8D31FE3516200371C58 /* Main.storyboard in Resources */,
 			);
@@ -134,7 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69A4B9011FE3B82900371C58 /* UserItem.swift in Sources */,
+				69B12DFC1FE8E0B500B32474 /* CustomView.swift in Sources */,
+				69B12DFA1FE8A32500B32474 /* LoginPasswordSecureField.swift in Sources */,
+				69B12DF81FE8A11C00B32474 /* LoginAccountTextField.swift in Sources */,
 				69A4B8CE1FE3516200371C58 /* ViewController.swift in Sources */,
+				69A4B8E01FE35AC100371C58 /* LoginImageButton.swift in Sources */,
+				69A4B8DC1FE351B300371C58 /* LoginWindowController.swift in Sources */,
 				69A4B8CC1FE3516200371C58 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +322,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		69A4B8C31FE3516200371C58 /* Build configuration list for PBXProject "MacQQ" */ = {
+		69A4B8C31FE3516200371C58 /* Build configuration list for PBXProject "添加子窗口" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69A4B8D61FE3516200371C58 /* Debug */,
@@ -303,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		69A4B8D81FE3516200371C58 /* Build configuration list for PBXNativeTarget "MacQQ" */ = {
+		69A4B8D81FE3516200371C58 /* Build configuration list for PBXNativeTarget "添加子窗口" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				69A4B8D91FE3516200371C58 /* Debug */,
